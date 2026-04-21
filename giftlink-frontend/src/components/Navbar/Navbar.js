@@ -8,8 +8,6 @@
 	//Step 1 - Task 3
 	import { useNavigate } from 'react-router-dom';
 
-	import './RegisterPage.css';
-
 	function RegisterPage() {
 		const [firstName, setFirstName] = useState('');
 		const [lastName, setLastName] = useState('');
